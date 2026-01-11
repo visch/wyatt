@@ -7,7 +7,10 @@ Pull quarterly revenue and gross margin for stocks from Yahoo Finance and SEC ED
 
 ## Setup
 
+Note that UV will install python for you automatically
 Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).
+
+
 
 ```bash
 # Install uv if you don't have it
