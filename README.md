@@ -1,4 +1,7 @@
+Disclaimer, none of this is tested use at your own risk
+
 # Wyatt - Stock Financial Data Scraper
+
 
 Pull quarterly revenue and gross margin for stocks from Yahoo Finance and SEC EDGAR.
 
