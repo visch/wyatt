@@ -1,0 +1,16 @@
+[project]
+name = "wyatt"
+version = "0.1.0"
+description = "Stock financial data scraper - pulls quarterly revenue and gross margin from Yahoo Finance and SEC EDGAR"
+requires-python = ">=3.11"
+dependencies = [
+    "yfinance>=0.2.0",
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+    "tqdm>=4.65.0",
+    "requests>=2.31.0",
+]
+
+[project.scripts]
+stock-scraper = "stock_scraper:main"
+edgar-scraper = "edgar_scraper:main"
